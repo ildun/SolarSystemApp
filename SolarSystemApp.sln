@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarSystemApp.Android", "SolarSystemApp.Android\SolarSystemApp.Android.csproj", "{AA759B32-34B3-426A-92B2-FF2C83F556C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarSystemApp", "SolarSystemApp\SolarSystemApp.csproj", "{A44C1A26-F828-4972-ABF1-4E613122D1DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA759B32-34B3-426A-92B2-FF2C83F556C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA759B32-34B3-426A-92B2-FF2C83F556C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA759B32-34B3-426A-92B2-FF2C83F556C0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AA759B32-34B3-426A-92B2-FF2C83F556C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA759B32-34B3-426A-92B2-FF2C83F556C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA759B32-34B3-426A-92B2-FF2C83F556C0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A44C1A26-F828-4972-ABF1-4E613122D1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44C1A26-F828-4972-ABF1-4E613122D1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44C1A26-F828-4972-ABF1-4E613122D1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44C1A26-F828-4972-ABF1-4E613122D1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {405AF7C3-590A-4DAC-9DF5-256412371535}
+	EndGlobalSection
+EndGlobal

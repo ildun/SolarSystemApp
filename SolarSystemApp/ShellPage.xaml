@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:views="clr-namespace:SolarSystemApp"
+            x:Class="SolarSystemApp.ShellPage">
+
+    <Shell.FlyoutHeader>
+        <Frame BackgroundColor="Black">
+            <Label Text="Solar System" 
+                   BackgroundColor="Black" TextColor="WhiteSmoke" 
+                   Margin="30" FontSize="Large"/>
+        </Frame>
+    </Shell.FlyoutHeader>
+    <FlyoutItem Title="Solar System" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="General Info">
+            <views:GeneralInfoPage/>
+        </ShellContent>
+        <ShellContent Title="Summary" >
+            <views:SummaryPage/>
+        </ShellContent>
+    </FlyoutItem>
+</Shell> 
